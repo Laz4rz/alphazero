@@ -65,6 +65,13 @@ class TicTacToe:
             self.current_player = 'O' if self.current_player == 'X' else 'X'
         else:
             raise ValueError('Invalid move') 
+        
+    def __str__(self):
+        return '\n'.join(['|'.join(row) for row in self.board])
+    
+    def __repr__(self):
+        return str(self)
+
 
 if __name__ == '__main__':
     game = TicTacToe()

@@ -7,3 +7,4 @@ Monte Carlo Tree Search implemented (I think mostly working correctly), and test
 
 ![alt text](images/connecttwo.png)
 
+# Alpha MCTS
